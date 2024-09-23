@@ -1,0 +1,4 @@
+kw 1 - SELECT cena, nazwa FROM `uslugi` WHERE cena >= 50;
+kw 2 - SELECT avg(cena) as srednia_cena, COUNT(*) as liczba_uslug FROM `uslugi`  WHERE kadra_id=2;
+kw 3 - CREATE USER 'kosmetyczka'@'localhost' IDENTIFIED by 'Kosmet34';
+kw 4 - GRANT SELECT, UPDATE ON `salon`.`uslugi` TO 'kosmetyczka'@'localhost';
